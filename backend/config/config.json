@@ -1,0 +1,41 @@
+{
+  "development": {
+    "database": {
+      "username": "postgres",
+      "password": "postgres",
+      "database": "PatientManagement",
+      "dialect": "postgres",
+      "port": 5432,
+      "logging": false
+    },
+    "jwts": {
+      "secret_key": "hghjhu57nxjdfjf"
+    },
+    "mail": {
+      "host": "smtp.gmail.com",
+      "service": "gmail",
+      "email": "sreelekshmi@spericorn.com",
+      "pass": "Sreejith@07"
+    }
+  },
+  "local": {
+    "database": {
+      "username": "postgres",
+      "password": "postgres",
+      "database": "PatientManagement",
+      "dialect": "postgres",
+      "port": 5432,
+      "logging": false
+    },
+    "jwts": {
+      "secret_key": "hghjhu57nxjdfjf"
+    },
+
+    "mail": {
+      "host": "smtp.gmail.com",
+      "service": "gmail",
+      "email": "sreelekshmi@spericorn.com",
+      "pass": "Sreejith@07"
+    }
+  }
+}

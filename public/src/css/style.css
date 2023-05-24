@@ -1,0 +1,159 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+/*Header */
+.container{font-family: 'Lato', sans-serif;}
+
+/* Service  */
+.service-15 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.service-15 h1, .service-15 h2, .service-15 h3, .service-15 h4, .service-15 h5, .service-15 h6 {
+  color: #3e4555;
+}
+
+.service-15 h6 {
+		line-height: 22px;
+    font-size: 18px;
+}
+
+.service-15 .font-weight-medium {
+	font-weight: 500;
+}
+
+.service-15 a {
+	text-decoration: none;
+}
+
+.service-15 .linking {
+	color: #3e4555;
+}
+
+.service-15 .linking:hover {
+	color: #316ce8;
+}
+
+.service-15 .bg-light {
+    background-color: #f4f8fa !important;
+}
+
+.service-15 .text-success {
+	color: #69bdd2 !important;
+}
+
+.service-15 .icon-round {
+    width: 80px;
+    line-height: 80px;
+		font-size: 2rem;
+}
+
+
+/* Testimonial */
+
+.card {
+    border-radius: .7rem;
+  }
+
+/* Gallery  */
+
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+  .bg-dark {
+    background-color: #105469 !important;
+  }
+  
+  
+  
+  h1 {
+    color: #105469;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  
+   .gallery .col{
+    height: 50px;
+  }
+
+
+  /* Contact Us  */
+  @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.contact2 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+	padding: 60px 0;
+  margin-bottom: 170px;
+  background-position: center top;
+}
+
+.contact2 h1,
+.contact2 h2,
+.contact2 h3,
+.contact2 h4,
+.contact2 h5,
+.contact2 h6 {
+  color: #3e4555;
+}
+
+.contact2 .font-weight-medium {
+  font-weight: 500;
+}
+
+.contact2 .subtitle {
+  color: #8d97ad;
+  line-height: 24px;
+}
+
+.contact2 .bg-image {
+  background-size: cover;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact2 .card.card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.contact2 .detail-box .round-social {
+  margin-top: 100px;
+}
+
+.contact2 .round-social a {
+  background: transparent;
+  margin: 0 7px;
+  padding: 11px 12px;
+}
+
+.contact2 .contact-container .links a {
+  color: #8d97ad;
+}
+
+.contact2 .contact-container {
+  position: relative;
+  top: 200px;
+}
+
+.contact2 .btn-danger-gradiant {
+  background: #ff4d7e;
+  background: -webkit-linear-gradient(legacy-direction(to right), #ff4d7e 0%, #ff6a5b 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ff4d7e), to(#ff6a5b));
+  background: -webkit-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+  background: -o-linear-gradient(left, #ff4d7e 0%, #ff6a5b 100%);
+  background: linear-gradient(to right, #ff4d7e 0%, #ff6a5b 100%);
+}
+
+ .contact2 .btn-danger-gradiant:hover {
+  background: #ff6a5b;
+  background: -webkit-linear-gradient(legacy-direction(to right), #ff6a5b 0%, #ff4d7e 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ff6a5b), to(#ff4d7e));
+  background: -webkit-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+  background: -o-linear-gradient(left, #ff6a5b 0%, #ff4d7e 100%);
+  background: linear-gradient(to right, #ff6a5b 0%, #ff4d7e 100%);
+}
